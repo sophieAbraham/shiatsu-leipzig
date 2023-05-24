@@ -1,0 +1,9 @@
+
+/* FONT ABLAGE */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+
+/* TAILWIND IMPORT */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
