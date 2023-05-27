@@ -2,7 +2,7 @@ import React from "react";
 import { contentBox, heading2box, button } from "../../services/styles.js";
 import Logo2 from '../../assets/img/logo-shiatsu-leipzig.jpg';
 import Footer from '../../components/layout/Footer.jsx';
-import CreatePost from '../../components/layout/CreatePost.jsx';
+//import CreatePost from '../../components/layout/CreatePost.jsx';
 
 import { motion } from 'framer-motion';
 
