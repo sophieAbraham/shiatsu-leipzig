@@ -16,7 +16,7 @@ Feature: Login for admin to create a new blogpost with special offers which chan
 
 
 ## Backend
-+ deploy at vercel
++ https://shiatsu-backend.vercel.app/
 
 ### Stack
 + cors
