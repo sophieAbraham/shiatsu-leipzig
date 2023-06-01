@@ -17,7 +17,7 @@ function Footer() {
 
         <footer className='fixed bottom-0 left-0 flex justify-center items-center w-full md:h-20 z-40 text-olivedunkel bg-transparent'  >
 
-            <ul className="flex flex-col md:flex-row justify-center md:justify-around items-center w-full md:w-1/2 h-full tracking-widest">
+            <ul className="flex flex-col md:flex-row justify-center md:justify-around items-center w-full lg:w-3/4 h-full tracking-widest">
                 <li className={`${navLink} ${isAdmin}`} title='Admin' >
                     <Link to="/login">
                         <MdOutlineAdminPanelSettings className="text-3xl" />

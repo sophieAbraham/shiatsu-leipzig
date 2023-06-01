@@ -77,7 +77,7 @@ function AdminLogin() {
 
     return (
         <motion.div
-            className="container mx-auto bg-center bg-no-repeat bg-cover bg-logo-bg h-screen"
+            className=""
             initial={{ width: 0 }}
             animate={{ width: '100%' }}
             exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}

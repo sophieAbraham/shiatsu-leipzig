@@ -11,6 +11,10 @@ function Nav() {
 
     let [open, setOpen] = useState(false);
 
+    const closeSideBar = () => {
+        setOpen(false)
+    }
+
     const location = useLocation();
     let isStart
     let isAktuell
@@ -33,7 +37,7 @@ function Nav() {
     return (
 
         <nav className={`${nav}`}>
-            
+
             {
                 open ?
                     <AiOutlineCloseCircle className={`${navIcons}`} onClick={() => setOpen(!open)} />
@@ -44,43 +48,43 @@ function Nav() {
             <ul className={`${navList} ${!open ? 'right-[-100%]' : 'right-0'}`}>
 
                 <li className={`${navLink} ${isAktuell}`}>
-                    <Link to="/aktuell" className='py-5 inline-block'>
+                    <Link to="/aktuell" className='py-5 inline-block' onClick={closeSideBar}>
                         Aktuell
                     </Link>
                 </li>
 
                 <li className={`${navLink} ${isShiatsu}`}>
-                    <Link to="/shiatsu" className='py-5 inline-block'>
+                    <Link to="/shiatsu" className='py-5 inline-block' onClick={closeSideBar}>
                         Shiatsu
                     </Link>
                 </li>
 
                 <li className={`${navLink} ${isBehandlung}`}>
-                    <Link to="/behandlung" className='py-5 inline-block'>
+                    <Link to="/behandlung" className='py-5 inline-block' onClick={closeSideBar}>
                         Behandlung
                     </Link>
                 </li>
 
                 <li className={`${navLink} ${isUeberMich}`}>
-                    <Link to="/uebermich" className='py-5 inline-block'>
+                    <Link to="/uebermich" className='py-5 inline-block' onClick={closeSideBar}>
                         Über mich
                     </Link>
                 </li>
 
                 <li className={`${navLink} ${isKontakt}`}>
-                    <Link to="/kontakt" className='py-5 inline-block'>
+                    <Link to="/kontakt" className='py-5 inline-block' onClick={closeSideBar}>
                         Kontakt
                     </Link>
                 </li>
 
                 <li className={`${navLink} ${isNetzwerk}`}>
-                    <Link to="/netzwerk" className='py-5 inline-block'>
+                    <Link to="/netzwerk" className='py-5 inline-block' onClick={closeSideBar}>
                         Netzwerk
                     </Link>
                 </li>
 
                 <li className={`${navLink} ${isStart}`}>
-                    <Link to="/" className='py-5 inline-block'>
+                    <Link to="/" className='py-5 inline-block' onClick={closeSideBar}>
                         <MdArrowCircleUp className='text-4xl -mb-7' title='Home' />
                     </Link>
                 </li>

@@ -50,7 +50,7 @@ function BlogCard({ title, description, date }) {
                         key={postImage._id}
                         src={postImage.myFile}
                         alt='Naturbild'
-                        className="w-fit self-center rounded-2xl mt-3 mb-3 opacity-60 hover:opacity-90"
+                        className="w-fit self-center rounded-2xl mt-3 mb-1 opacity-60 hover:opacity-90"
                     />
                 }
 
@@ -61,7 +61,7 @@ function BlogCard({ title, description, date }) {
                     <AiOutlineTags className='text-gray-500 text-4xl' />
                 </div>
 
-                <h3 className={`${Styles.heading2box}`}>{title}</h3>
+                <h3 className={`${Styles.heading2blog}`}>{title}</h3>
                 {/* <h3 className={`${Styles.heading2box}`}>Frühlingserwachen</h3> */}
 
                 <p className='text-xl md:text-3xl text-gray-400 text-center leading-relaxed md:leading-loose'>{description}</p>
