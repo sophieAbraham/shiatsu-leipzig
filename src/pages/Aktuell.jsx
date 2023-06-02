@@ -40,13 +40,13 @@ function Aktuell() {
         >
 
             <div className={`${Styles.blogBox}`}>
-                <h2 className={`${Styles.heading2box}`}>Neuigkeiten und Angebote</h2>
+                <h2 className={`${Styles.heading2blog}`}>Neuigkeiten und Angebote</h2>
 
                 {!post
 
                     ?
 
-                    <div className='bg-white'>
+                    <div className='mt-'>
                         <img src={Blumenbild} alt="Blumenbild" className="mt-3 opacity-60 hover:opacity-90"/>
                         <BlogCard
                             date={Date.now()}

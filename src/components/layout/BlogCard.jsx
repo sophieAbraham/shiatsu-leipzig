@@ -40,11 +40,11 @@ function BlogCard({ title, description, date }) {
 
     return (
 
-        <div className='w-full flex flex-col justify-center items-center rounded-lg p-5 bg-slate-50 shadow-lg'>
+        <div className='w-full flex flex-col justify-center items-center rounded-lg p-5 bg-slate-50'>
 
             <div className='w-full flex flex-col justify-center items-center'>
 
-                {!postImage ? <h2 className={`${Styles.heading2box}`}></h2> :
+                {!postImage ? <h2 className={`${Styles.heading2blog}`}></h2> :
 
                     <img
                         key={postImage._id}
@@ -57,7 +57,7 @@ function BlogCard({ title, description, date }) {
             </div>
 
             <div className='w-3/4 flex flex-col justify-center items-center'>
-                <div className='self-start mt-5'>
+                <div className='self-start'>
                     <AiOutlineTags className='text-gray-500 text-4xl' />
                 </div>
 
