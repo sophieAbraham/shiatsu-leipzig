@@ -1,7 +1,7 @@
 
 // Content Box
 export const contentBox = 'container mx-auto bg-white -mt-5 p-6 w-full md:w-3/4 lg:w-1/2 min-h-screen flex-col justify-center items-center shadow-lg'
-export const blogBox = 'container mx-auto bg-slate-50 p-1 w-full md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-20'
+export const blogBox = 'container mx-auto bg-slate-50 p-1 w-full md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-20 shadow-lg'
 export const impressumBox = 'container mx-auto bg-white p-6 w-full md:w-1/2 h-fit flex-col justify-center items-center shadow-md -mt-5'
 export const uploadItemBox = 'container mx-auto bg-white p-6 w-full md:w-3/4 h-fit flex-col justify-center items-center mt-4'
 

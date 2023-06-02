@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App w-full bg-center bg-no-repeat bg-cover bg-logo-bg min-h-screen font-Mukta">
-      <div className='container h-screen mx-auto'>
+      <div className='container w-full h-screen mx-auto'>
 
         <Nav />
 
