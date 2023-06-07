@@ -40,7 +40,7 @@ function BlogCard({ title, description, date }) {
 
     return (
 
-        <div className='w-full flex flex-col justify-center items-center rounded-lg p-5 bg-slate-50'>
+        <div className='w-full flex flex-col justify-center items-center p-5 bg-slate-50'>
 
             <div className='w-full flex flex-col justify-center items-center'>
 
