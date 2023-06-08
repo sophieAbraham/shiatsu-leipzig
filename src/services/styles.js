@@ -1,4 +1,8 @@
 
+// Background
+export const home = 'bg-white'
+export const notHome = 'bg-center bg-no-repeat bg-cover bg-logo-bg'
+
 // Content Box
 export const contentBox = 'container mx-auto bg-white -mt-5 p-6 w-full md:w-3/4 lg:w-1/2 min-h-screen flex-col justify-center items-center shadow-lg'
 export const blogBox = 'container mx-auto bg-slate-50 p-1 w-full md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-20 shadow-lg rounded-md'
@@ -16,8 +20,8 @@ export const heading2blog = "font-Pinstripe text-2xl md:text-4xl text-gray-500 f
 export const heading3box = "font-Pinstripe text-xl md:text-3xl text-gray-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-2"
 export const headingInfobox = 'font-Pinstripe text-xl md:text-3xl text-yellow-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-2'
 export const headingInfobox2 = 'font-Pinstripe text-xl md:text-3xl text-white font-semibold tracking-widest leading-relaxed md:leading-loose mt-2'
-export const headingsContact = "text-xl md:text-3xl text-gray-400 tracking-widest leading-relaxed md:leading-loose mt-2"
-export const contactIcons = "text-xl md:text-3xl text-gray-500 tracking-widest leading-relaxed md:leading-loose mt-2"
+export const headingsContact = "text-2xl md:text-3xl text-gray-400 tracking-widest leading-relaxed md:leading-loose mt-2"
+export const contactIcons = "text-2xl md:text-3xl text-gray-500 tracking-widest leading-relaxed md:leading-loose mt-2"
 
 
 

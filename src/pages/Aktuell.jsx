@@ -36,7 +36,7 @@ function Aktuell() {
             className=''
             initial={{ width: 0 }}
             animate={{ width: '100%' }}
-            exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
+            exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
         >
 
             <div className={`${Styles.blogBox}`}>
@@ -50,7 +50,7 @@ function Aktuell() {
                         <img src={Blumenbild} alt="Blumenbild" className="mt-3 opacity-60 hover:opacity-90"/>
                         <BlogCard
                             date={Date.now()}
-                            title={'Frühlingserwachen'}
+                            title={'Sommerblick'}
                             description={`Ankommen und Weitergehen mit der Kraft des Shiatsu. Zeit für Dich! Preis: 60-80 ${'\u20AC'} ${'\u007C'} 2. ${'\u002B'} 3. Termin: 15 ${'\u20AC'} Rabatt`}
                         />
                     </div>

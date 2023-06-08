@@ -20,25 +20,25 @@ function ImageSlider({ slides }) {
     }
 
     return (
-        <section className='mx-auto container relative min-h-max w-full md:w-3/4 flex flex-row justify-center items-center mb-4 mt-4'>
+        <section className='mx-auto container relative h-[250px] md:h-[400px] w-full md:w-3/4 flex flex-row justify-center items-center mb-4 mt-4'>
             <MdArrowCircleLeft 
-            className='absolute top-1/2 left-2 text-2xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
+            className='absolute top-40 md:top-1/2 left-2 text-2xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
             onClick={prevSlide} 
             />
 
             <MdArrowCircleRight 
-            className='absolute top-1/2 right-2 text-2xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
+            className='absolute top-40 md:top-1/2 right-2 text-2xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
             onClick={nextSlide} 
             />
 
             {sliderData.map((slide, index) => {
                 return (
                     <div
-                        className={index === current ? 'transition duration-400 ease-linear' : 'transition duration-400 ease-linear'}
+                        className={index === current ? 'transition duration-700 ease-in opacity-100' : 'transition duration-700 ease-in opacity-0'}
                         key={index}
                     >
                         {index === current && (
-                            <img src={slide.src} alt='Bild aus einer Shiatsu Behandlung' className='mx-auto w-3/4 md:w-full h-full md:h-3/4 shadow-lg md:scale-100 rounded-md' />
+                            <img src={slide.src} alt='Bild aus einer Shiatsu Behandlung' className='mx-auto w-3/4 md:w-full shadow-lg md:scale-100 rounded-md' />
                         )}
 
                         {index === current && (

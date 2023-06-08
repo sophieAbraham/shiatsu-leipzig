@@ -12,7 +12,7 @@ function Netzwerk() {
             className=''
             initial={{ width: 0 }}
             animate={{ width: '100%' }}
-            exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
+            exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
         >
 
             <div className={`${contentBox}`}>
@@ -33,7 +33,7 @@ function Netzwerk() {
 
                     <div className="flex justify-center items-center">
                         <h3 className={`${headingsContact} hover:text-lavendel`}>
-                            Sophie Abraham {'\u007C'} CodeShip
+                            <a href="https://www.abrahaminim.de/" target="_blank">Sophie Abraham {'\u007C'} codeShip</a>
                         </h3>
                     </div>
                 </div>
