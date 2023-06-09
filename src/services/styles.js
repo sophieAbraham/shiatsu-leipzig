@@ -5,7 +5,7 @@ export const notHome = 'bg-center bg-no-repeat bg-cover bg-logo-bg'
 
 // Content Box
 export const contentBox = 'container mx-auto bg-white -mt-5 p-6 w-full md:w-3/4 lg:w-1/2 min-h-screen flex-col justify-center items-center shadow-lg'
-export const blogBox = 'container mx-auto bg-slate-50 p-1 w-full md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-20 shadow-lg rounded-md'
+export const blogBox = 'container mx-auto bg-slate-50 p-1 w-3/4 md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-20 shadow-lg rounded-md'
 export const impressumBox = 'container mx-auto bg-white p-6 w-full md:w-1/2 h-fit flex-col justify-center items-center shadow-md -mt-5'
 export const uploadItemBox = 'container mx-auto bg-white p-6 w-full md:w-3/4 h-fit flex-col justify-center items-center mt-4'
 
@@ -16,7 +16,7 @@ export const heading1 = "text-2xl lg:text-4xl md:text-3xl text-olivedunkel font-
 export const heading2 = "text-xl lg:text-3xl md:text-2xl text-olivedunkel font-medium tracking-widest leading-relaxed md:leading-normal mt-2"
 
 export const heading2box = "font-Pinstripe text-2xl md:text-4xl text-gray-500 font-semibold tracking-widest mt-16 mb-6"
-export const heading2blog = "font-Pinstripe text-2xl md:text-4xl text-gray-500 font-semibold tracking-widest mt-4 mb-6"
+export const heading2blog = "font-Pinstripe text-2xl md:text-4xl text-gray-500 font-semibold tracking-widest mt-4 mb-4"
 export const heading3box = "font-Pinstripe text-xl md:text-3xl text-gray-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-2"
 export const headingInfobox = 'font-Pinstripe text-xl md:text-3xl text-yellow-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-2'
 export const headingInfobox2 = 'font-Pinstripe text-xl md:text-3xl text-white font-semibold tracking-widest leading-relaxed md:leading-loose mt-2'

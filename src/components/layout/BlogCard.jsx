@@ -40,7 +40,7 @@ function BlogCard({ title, description, date }) {
 
     return (
 
-        <div className='w-full flex flex-col justify-center items-center p-5 bg-slate-50'>
+        <div className='w-full flex flex-col justify-center items-center p-2 bg-slate-50'>
 
             <div className='w-full flex flex-col justify-center items-center'>
 
@@ -58,7 +58,7 @@ function BlogCard({ title, description, date }) {
 
             <div className='w-3/4 flex flex-col justify-center items-center'>
                 <div className='self-start'>
-                    <AiOutlineTags className='text-gray-500 text-4xl' />
+                    <AiOutlineTags className='text-gray-500 text-3xl md:text-4xl' />
                 </div>
 
                 <h3 className={`${Styles.heading2blog}`}>{title}</h3>

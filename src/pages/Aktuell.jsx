@@ -46,7 +46,7 @@ function Aktuell() {
 
                     ?
 
-                    <div className='mt-'>
+                    <div className=''>
                         <img src={Blumenbild} alt="Blumenbild" className="mt-3 opacity-60 hover:opacity-90"/>
                         <BlogCard
                             date={Date.now()}
