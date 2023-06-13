@@ -56,7 +56,7 @@ function BlogCard({ title, description, date }) {
 
             </div>
 
-            <div className='w-3/4 flex flex-col justify-center items-center'>
+            <div className='w-full md:w-3/4 flex flex-col justify-center items-center'>
                 <div className='self-start'>
                     <AiOutlineTags className='text-gray-500 text-3xl md:text-4xl' />
                 </div>
@@ -64,7 +64,7 @@ function BlogCard({ title, description, date }) {
                 <h3 className={`${Styles.heading2blog}`}>{title}</h3>
                 {/* <h3 className={`${Styles.heading2box}`}>Frühlingserwachen</h3> */}
 
-                <p className='text-xl md:text-3xl text-gray-400 text-center leading-relaxed md:leading-loose'>{description}</p>
+                <p className='text-2xl md:text-3xl text-gray-400 text-center leading-relaxed md:leading-loose'>{description}</p>
                 {/* <p className={`${Styles.paragraph}`}>Ankommen und Weitergehen mit der Kraft des Shiatsu. Zeit für Dich!</p> */}
                 {/* <p className={`${Styles.paragraph}`}>Preis: 60-80 {'\u20AC'} {'\u007C'} 2. {'\u002B'} 3. Termin: 15 {'\u20AC'} Rabatt</p> */}
 

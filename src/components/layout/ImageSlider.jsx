@@ -22,12 +22,12 @@ function ImageSlider({ slides }) {
     return (
         <section className='mx-auto container relative h-[250px] md:h-[400px] w-full md:w-3/4 flex flex-row justify-center items-center mb-4 mt-4'>
             <MdArrowCircleLeft 
-            className='absolute top-40 md:top-1/2 left-2 text-2xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
+            className='absolute top-40 md:top-1/2 left-2 text-3xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
             onClick={prevSlide} 
             />
 
             <MdArrowCircleRight 
-            className='absolute top-40 md:top-1/2 right-2 text-2xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
+            className='absolute top-40 md:top-1/2 right-2 text-3xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
             onClick={nextSlide} 
             />
 

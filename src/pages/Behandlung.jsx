@@ -69,7 +69,7 @@ function Behandlung() {
 
                         :
 
-                        <div className={`w-3/4 mx-auto mt-10 ${!boxOpen ? '' : 'hidden'}`}>
+                        <div className={`w-[310px] md:w-3/4 mx-auto mt-10 ${!boxOpen ? '' : 'hidden'}`}>
                             <div>
                                 <h3 className={`${headingInfobox}`}>Anamnese</h3>
                                 <p className={`${pInfobox}`}>

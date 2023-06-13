@@ -43,10 +43,10 @@ function Shiatsu() {
                 {
                     boxOpen ?
 
-                        <div className="w-3/4 mx-auto">
+                        <div className="w-[310px] md:w-3/4 mx-auto">
                             <h3 className={`${heading3box}`}>Umfassende Wirkkraft</h3>
 
-                            <p className='text-xl md:text-2xl text-yellow-500 text-justify leading-relaxed md:leading-loose'>
+                            <p className='text-2xl md:text-2xl text-yellow-500 text-justify leading-relaxed md:leading-loose'>
                                 Shiatsu hilft auf diese Weise sich selbst wieder besser zu
                                 spüren und achtsam zu werden für die Signale, die uns unser Körper sendet.
                                 Als unterstützende Behandlung:
@@ -66,7 +66,7 @@ function Shiatsu() {
 
                         :
 
-                        <div className={`w-3/4 mx-auto mt-10 ${!boxOpen ? '' : 'hidden'}`}>
+                        <div className={`w-[310px] md:w-3/4 mx-auto mt-10 ${!boxOpen ? '' : 'hidden'}`}>
                             <h3 className={`${headingInfobox}`}>Masunagas Mitgefühl</h3>
                             <p className={`${pInfobox}`}>
                                 In der Tradition von Shizuto Masunaga findet die Behandlung in einer ruhigen,
