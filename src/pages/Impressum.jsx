@@ -13,7 +13,7 @@ function Impressum() {
             animate={{ width: '100%' }}
             exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
         >
-            <div className={`${impressumBox} pb-48 md:pb-20`}>
+            <div className={`${impressumBox}`}>
                 <h1 className={`${heading2box}`}>Impressum</h1>
 
                 <h2 className={`${heading3box}`}>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>

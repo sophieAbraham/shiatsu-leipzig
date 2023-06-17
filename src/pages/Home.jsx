@@ -17,14 +17,14 @@ function Home() {
 
             <Link to="/aktuell">
                 <img
-                    title="Shiatsu Leipzig: Franziska Tansinne"
+                    title="Logo: Sascha Knorr"
                     src={Logo}
                     alt="Baumlogo Shiatsu Leipzig"
-                    className="mx-auto w-3/4 md:w-1/2 md:scale-75 rounded-full border-2 border-gray-300 shadow-xl -mt-40"
+                    className="mx-auto w-3/4 md:w-1/2 lg:scale-90 xl:scale-75 rounded-full border-2 border-gray-300 shadow-xl -mt-40"
                 />
             </Link>
 
-            <div>
+            <div className="mt-10 xl:-mt-10">
                 <h1 className={`${heading1}`}>Franziska Tansinne</h1>
                 <h2 className={`${heading2}`}>Shiatsu-Therapeutin <br /> Ganzheitliche Körpertherapie aus der TCM</h2>
             </div>

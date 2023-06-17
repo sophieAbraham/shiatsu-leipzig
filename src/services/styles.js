@@ -4,20 +4,20 @@ export const home = 'bg-white'
 export const notHome = 'bg-center bg-no-repeat bg-cover bg-logo-bg'
 
 // Content Box
-export const contentBox = 'container mx-auto bg-white -mt-5 p-6 w-full md:w-3/4 lg:w-1/2 min-h-screen flex-col justify-center items-center shadow-lg'
-export const blogBox = 'container mx-auto bg-slate-50 p-1 w-[365px] md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-20 shadow-lg rounded-md'
-export const impressumBox = 'container mx-auto bg-white p-6 w-full md:w-1/2 h-fit flex-col justify-center items-center shadow-md -mt-5'
+export const contentBox = 'container mx-auto bg-white -mt-5 p-6 pb-20 w-full md:w-3/4 lg:w-1/2 lg:pb-40 min-h-screen flex-col justify-center items-center shadow-lg'
+export const blogBox = 'container mx-auto bg-slate-50 p-1 w-[365px] md:w-3/4 lg:w-1/2 h-fit flex-col justify-center items-center mt-40 shadow-lg rounded-md'
+export const impressumBox = 'container mx-auto bg-white p-6 pb-52 md:pb-32 w-full md:w-1/2 h-fit flex-col justify-center items-center shadow-md -mt-5'
 export const uploadItemBox = 'container mx-auto bg-white p-6 w-full md:w-3/4 h-fit flex-col justify-center items-center mt-4'
 
 
 
 // Headings
-export const heading1 = "text-3xl lg:text-4xl md:text-3xl text-olivedunkel font-medium tracking-widest leading-relaxed mt-10 md:mt-0"
-export const heading2 = "text-2xl lg:text-3xl md:text-2xl text-olivedunkel font-medium tracking-widest leading-relaxed md:leading-normal mt-2"
+export const heading1 = "text-3xl lg:text-4xl md:text-3xl text-olivedunkel font-medium tracking-widest leading-relaxed"
+export const heading2 = "text-2xl lg:text-3xl md:text-2xl text-olivedunkel font-medium tracking-widest mt-2"
 
-export const heading2box = "font-Pinstripe text-3xl md:text-4xl text-gray-500 font-semibold tracking-widest mt-16 mb-6"
+export const heading2box = "font-Pinstripe text-3xl md:text-4xl text-gray-500 font-semibold tracking-widest mt-24 mb-6"
 export const heading2blog = "font-Pinstripe text-3xl md:text-4xl text-gray-500 font-semibold tracking-widest mt-4 mb-4"
-export const heading3box = "font-Pinstripe text-2xl md:text-3xl text-gray-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-2"
+export const heading3box = "font-Pinstripe text-2xl md:text-3xl text-gray-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-5"
 export const headingInfobox = 'font-Pinstripe text-2xl md:text-3xl text-yellow-500 font-semibold tracking-widest leading-relaxed md:leading-loose mt-2'
 export const headingInfobox2 = 'font-Pinstripe text-3xl md:text-4xl text-white font-semibold tracking-widest leading-relaxed md:leading-loose mt-2'
 export const headingsContact = "text-3xl md:text-4xl text-gray-400 tracking-widest leading-relaxed md:leading-loose mt-2"
@@ -26,15 +26,15 @@ export const contactIcons = "text-2xl md:text-3xl text-gray-500 tracking-widest 
 
 
 // Paragraphs
-export const paragraph = 'text-2xl md:text-3xl text-gray-400 text-justify leading-relaxed md:leading-loose'
+export const paragraph = 'text-2xl md:text-3xl text-gray-400 text-justify sm:text-left leading-relaxed md:leading-loose'
 export const pInfobox = 'text-2xl md:text-2xl text-gray-400 text-justify leading-relaxed md:leading-loose'
-export const pInfobox2 = 'text-2xl md:text-2xl text-white text-justify leading-relaxed md:leading-loose'
+export const pInfobox2 = 'text-2xl md:text-2xl text-white text-justify sm:text-left leading-relaxed md:leading-loose'
 export const pImprbox = 'text-2xl md:text-2xl text-gray-400 text-center leading-relaxed md:leading-loose'
 
 
 
 // Lists
-export const list = 'mt-3 list-disc list-outside text-2xl md:text-2xl text-yellow-500 text-start leading-relaxed md:leading-loose'
+export const list = 'mt-3 list-disc list-outside text-2xl md:text-2xl text-gray-400 text-start leading-relaxed md:leading-loose'
 
 
 // Navigation

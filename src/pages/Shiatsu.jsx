@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 function Shiatsu() {
 
     let [boxOpen, setBoxOpen] = useState(true);
+    let [boxTwoOpen, setBoxTwoOpen] = useState(true);
 
     return (
 
@@ -21,12 +22,11 @@ function Shiatsu() {
                 <h2 className={`${heading2box}`}>Zen-Shiatsu</h2>
 
                 <p className={`${paragraph}`}>
-                    <i className=''>Ursprung in der traditionell chinesischen Medizin/Menschenbild.</i><br />
                     Als ganzheitliche Körpertherapie aus der traditionell chinesischen Medizin (TCM) schöpft Shiatsu
-                    aus einer mehr als 2000 Jahren alten Erfahrung.
+                    aus einer mehr als 2000 Jahren alten Erfahrung. <br />
                     In der TCM richten wir den Blick auf den gesamten Menschen. Als zusammenhängendes System sind
                     alle Körperteile, Organe und Emotionen durch Energiebahnen (Meridiane) miteinander verbunden und
-                    werden mit Lebensenergie (Qi) versorgt. Ziel ist der ungehinderte Fluss unseres Qi in
+                    werden mit Lebensenergie (Qi) versorgt. <br /> Ziel ist der ungehinderte Fluss unseres Qi in
                     seinen unterschiedlichen Qualitäten. Vital und kraftvoll können wir uns von Krankheiten
                     erholen und vor einem erneuten Erkranken schützen.
                 </p>
@@ -40,15 +40,24 @@ function Shiatsu() {
                     insbesondere für sensitive, reizempfindliche Menschen.
                 </p>
 
-                {
-                    boxOpen ?
+                <div className="flex flex-col justify-center items-center mt-20">
+                    <button className={`${button} ${boxOpen ? '' : 'hidden'} ${boxTwoOpen ? '' : 'hidden'}`} onClick={() => setBoxOpen(!boxOpen)}>Wirkkraft</button>
+                    <button className={`${button} ${boxOpen ? '' : 'hidden'} ${boxTwoOpen ? '' : 'hidden'}`} onClick={() => setBoxTwoOpen(!boxTwoOpen)}> Shizuto Masunaga</button>
+                </div>
 
-                        <div className="w-[310px] md:w-3/4 mx-auto">
-                            <h3 className={`${heading3box}`}>Umfassende Wirkkraft</h3>
+
+
+                {/* entsprechende Boxen nach Buttonclick anzeigen lassen */}
+
+                {
+                    !boxOpen ?
+
+                        <div className={`w-[310px] md:w-3/4 mx-auto`}>
+                            <h3 className={`${headingInfobox}`}>Umfassende Wirkkraft</h3>
 
                             <p className='text-2xl md:text-2xl text-yellow-500 text-justify leading-relaxed md:leading-loose'>
-                                Shiatsu hilft auf diese Weise sich selbst wieder besser zu
-                                spüren und achtsam zu werden für die Signale, die uns unser Körper sendet.
+                                Shiatsu hilft sich selbst wieder besser zu
+                                spüren und achtsam zu werden für die Signale, die uns unser Körper sendet. <br />
                                 Als unterstützende Behandlung:
                             </p>
 
@@ -61,12 +70,20 @@ function Shiatsu() {
                                 </li>
                             </ul>
 
-                            <button className={`${button}`} onClick={() => setBoxOpen(!boxOpen)}>Mehr Info</button>
+                            <button className={`${button}`} onClick={() => setBoxOpen(!boxOpen)}><HiArrowNarrowLeft /></button>
                         </div>
 
                         :
 
-                        <div className={`w-[310px] md:w-3/4 mx-auto mt-10 ${!boxOpen ? '' : 'hidden'}`}>
+                        <div className=""></div>
+
+                }
+
+
+                {
+                    !boxTwoOpen ?
+
+                        <div className={`w-[310px] md:w-3/4 mx-auto`}>
                             <h3 className={`${headingInfobox}`}>Masunagas Mitgefühl</h3>
                             <p className={`${pInfobox}`}>
                                 In der Tradition von Shizuto Masunaga findet die Behandlung in einer ruhigen,
@@ -78,8 +95,12 @@ function Shiatsu() {
                                 Erkunden und Behandeln zugleich.
                             </p>
 
-                            <button className={`${button}`} onClick={() => setBoxOpen(!boxOpen)}><HiArrowNarrowLeft /></button>
+                            <button className={`${button}`} onClick={() => setBoxTwoOpen(!boxTwoOpen)}><HiArrowNarrowLeft /></button>
                         </div>
+
+                        :
+
+                        <div className=""></div>
 
                 }
 

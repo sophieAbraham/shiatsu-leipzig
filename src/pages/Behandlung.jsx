@@ -36,15 +36,6 @@ function Behandlung() {
 
                 <ImageSlider slides={sliderData} className='' />
 
-                {/* 
-                <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-                
-                    <img src={Image1} alt="Ein Bild" className="border-2 border-gray-200 rounded-2xl shadow-lg mt-3" />
-                    <img src={Image2} alt="Ein Bild" className="border-2 border-gray-200 rounded-2xl shadow-lg mt-3" />
-                    <img src={Image3} alt="Ein Bild" className="border-2 border-gray-200 rounded-2xl shadow-lg mt-3" />
-
-                </div>
-                 */}
 
                 {
                     boxOpen ?

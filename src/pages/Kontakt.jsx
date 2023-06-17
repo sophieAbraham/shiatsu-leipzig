@@ -19,11 +19,10 @@ function Kontakt() {
         >
 
             <div className={`${contentBox}`}>
-                {/* <h2 className={`${heading2box}`}>Kontakt</h2> */}
 
                 <div className="w-full flex justify-center items-center">
                     <img src={Logo2} alt="Logo Shiatsu Leipzig"
-                        className="w-3/4 md:w-1/2 rounded-full mt-3 mb-3" />
+                        className="w-3/4 md:w-1/2 rounded-full mt-10 xl:mt-20 mb-3" />
                 </div>
 
                 <div>

@@ -25,7 +25,7 @@ function UeberMich() {
                 </div>
 
                 <p className={`${paragraph}`}>
-                    Leben heißt Wachstum ... im steten Wandel aus Licht und Dunkelheit, Aktivität und Ruhe,
+                    Leben heißt Wachstum - im steten Wandel aus Licht und Dunkelheit, Aktivität und Ruhe,
                     Entfaltung und Rückzug. Auch wir folgen diesen Rhythmen. Doch was ist, wenn wir aus dem
                     Gleichgewicht geraten? Wo und wie können wir uns wieder anbinden an unsere eigene Kraft?
                 </p>
