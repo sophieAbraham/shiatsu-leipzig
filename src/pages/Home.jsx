@@ -9,7 +9,7 @@ function Home() {
 
     return (
         <motion.div
-            className="container bg-white -mt-5 flex flex-col justify-center items-center h-screen"
+            className="container mx-auto bg-white flex flex-col justify-center items-center w-full md:w-3/4 min-h-screen"
             initial={{ width: 0 }}
             animate={{ width: '100%' }}
             exit={{ x: window.innerWidth, transition: {duration: 0.3} }}
@@ -20,7 +20,7 @@ function Home() {
                     title="Logo: Sascha Knorr"
                     src={Logo}
                     alt="Baumlogo Shiatsu Leipzig"
-                    className="mx-auto w-3/4 md:w-1/2 lg:scale-90 xl:scale-75 rounded-full border-2 border-gray-300 shadow-xl -mt-40"
+                    className="mx-auto w-3/4 md:w-1/2 -mt-40 md:mt-20 xl:-mt-40 md:scale-90 xl:scale-75 rounded-full border-2 border-gray-300 shadow-xl"
                 />
             </Link>
 

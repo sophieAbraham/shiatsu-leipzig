@@ -49,7 +49,7 @@ function Aktuell() {
             exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
         >
 
-            <div className={`${Styles.blogBox}`}>
+            <div className={`${Styles.blogBox} pb-10`}>
                 <h2 className={`${Styles.heading2blog}`}>Neuigkeiten und Angebote</h2>
 
                 {!post

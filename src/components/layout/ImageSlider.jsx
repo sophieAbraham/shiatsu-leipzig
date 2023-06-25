@@ -20,14 +20,14 @@ function ImageSlider({ slides }) {
     }
 
     return (
-        <section className='mx-auto container relative h-[250px] md:h-[400px] w-full md:w-3/4 flex flex-row justify-center items-center mb-4 mt-4'>
+        <section className='mx-auto container relative h-[300px] sm:h-[400px] w-full md:w-3/4 flex flex-row justify-center items-center mb-4 mt-4'>
             <MdArrowCircleLeft 
-            className='absolute top-40 md:top-1/2 left-2 text-3xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
+            className='absolute top-52 md:top-64 xl:top-72 left-4 md:left-2 text-4xl md:text-5xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
             onClick={prevSlide} 
             />
 
             <MdArrowCircleRight 
-            className='absolute top-40 md:top-1/2 right-2 text-3xl md:text-4xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
+            className='absolute top-52 md:top-64 xl:top-72 right-4 md:right-2 text-4xl md:text-5xl text-gray-400 hover:text-lavendel z-10 cursor-pointer select-none' 
             onClick={nextSlide} 
             />
 
