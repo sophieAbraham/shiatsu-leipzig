@@ -24,7 +24,7 @@ function Shiatsu() {
                 <p className={`${paragraph}`}>
                     Als ganzheitliche Körpertherapie aus der traditionell chinesischen Medizin (TCM) schöpft Shiatsu
                     aus einer mehr als 2000 Jahren alten Erfahrung. <br />
-                    In der TCM richten wir den Blick auf den gesamten Menschen. Als zusammenhängendes System sind
+                    In der TCM richten wir den Blick auf den gesamten Menschen. <br /> Als zusammenhängendes System sind
                     alle Körperteile, Organe und Emotionen durch Energiebahnen (Meridiane) miteinander verbunden und
                     werden mit Lebensenergie (Qi) versorgt. <br /> Ziel ist der ungehinderte Fluss unseres Qi in
                     seinen unterschiedlichen Qualitäten. Vital und kraftvoll können wir uns von Krankheiten
@@ -52,10 +52,10 @@ function Shiatsu() {
                 {
                     !boxOpen ?
 
-                        <div className={`w-[310px] md:w-3/4 mx-auto`}>
+                        <div className={`w-3/4 mx-auto`}>
                             <h3 className={`${headingInfobox}`}>Umfassende Wirkkraft</h3>
 
-                            <p className='text-2xl md:text-2xl text-yellow-500 text-justify leading-relaxed md:leading-loose'>
+                            <p className='text-2xl md:text-3xl text-gray-400 text-justify sm:text-left leading-relaxed md:leading-loose'>
                                 Shiatsu hilft sich selbst wieder besser zu
                                 spüren und achtsam zu werden für die Signale, die uns unser Körper sendet. <br />
                                 Als unterstützende Behandlung:
@@ -64,7 +64,7 @@ function Shiatsu() {
                             <ul className={`${list}`}>
                                 <li>von akuten oder wiederkehrenden Schmerzen, die auf Stress und Verspannung beruhen</li>
                                 <li>fördert es die Beweglichkeit bei Gelenkproblemen</li>
-                                <li>wirkt es ausgleichend und stabilisierend bei Erschöpfung, Schlafstörungen und <br /> innerer Unruhe</li>
+                                <li>wirkt es ausgleichend und stabilisierend bei Erschöpfung, Schlafstörungen und innerer Unruhe</li>
                                 <li>begleitet es die vielfältigen Veränderungsprozesse in der Schwangerschaft und bereitet auf
                                     wohltuende und entlastende Weise auf eine entspannte Geburt vor
                                 </li>
@@ -83,13 +83,13 @@ function Shiatsu() {
                 {
                     !boxTwoOpen ?
 
-                        <div className={`w-[310px] md:w-3/4 mx-auto`}>
+                        <div className={`w-3/4 mx-auto`}>
                             <h3 className={`${headingInfobox}`}>Masunagas Mitgefühl</h3>
                             <p className={`${pInfobox}`}>
                                 In der Tradition von Shizuto Masunaga findet die Behandlung in einer ruhigen,
                                 meditativen Atmosphäre statt. Die Berührungen sind flexibel und interaktiv - und
-                                Ausdruck einer mitfühlenden Verbindung. Unsere Lebenssituation ist umfassend und
-                                einzigartig. Sie befindet sich in stetiger Veränderung. Somit zeigt sie sich in
+                                Ausdruck einer mitfühlenden Verbindung. <br /> Unsere Lebenssituation ist umfassend und
+                                einzigartig. <br /> Sie befindet sich in stetiger Veränderung. Somit zeigt sie sich in
                                 unterschiedlichen Meridianqualitäten. Ich behandele die Meridiane, die das stärkste
                                 energetische Ungleichgewicht (kyo und jitsu) aufweisen. Zen-Shiatsu ist somit Beziehung,
                                 Erkunden und Behandeln zugleich.

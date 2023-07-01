@@ -3,7 +3,7 @@ import { nav, navIcons, navList, navLink, activeNav } from '../../services/style
 import { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
-import { MdArrowCircleUp } from 'react-icons/md';
+import { HiOutlineHome } from 'react-icons/hi';
 
 
 
@@ -85,7 +85,7 @@ function Nav() {
 
                 <li className={`${navLink} ${isStart}`}>
                     <Link to="/" className='py-5 inline-block' onClick={closeSideBar}>
-                        <MdArrowCircleUp className='text-4xl -mb-7' title='Home' />
+                        <HiOutlineHome className='text-4xl -mb-7' title='Home' />
                     </Link>
                 </li>
 

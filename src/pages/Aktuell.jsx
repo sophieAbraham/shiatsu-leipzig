@@ -49,8 +49,8 @@ function Aktuell() {
             exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
         >
 
-            <div className={`${Styles.blogBox} pb-10`}>
-                <h2 className={`${Styles.heading2blog}`}>Neuigkeiten und Angebote</h2>
+            <div className={`${Styles.contentBox}`}>
+                <h2 className={`${Styles.heading2box}`}>Neuigkeiten und Angebote</h2>
 
                 {!post
 
@@ -59,19 +59,19 @@ function Aktuell() {
                     <div className=''>
                         <img src={Blumenbild} alt="Blumenbild" title="Foto: Dakota Roos Unsplash.com" className="mt-3 opacity-60 hover:opacity-90" />
 
-                        <div className='mx-auto w-full md:w-3/4 flex flex-col justify-center items-center'>
+                        <div className='h-fit mx-auto w-full md:w-3/4 flex flex-col justify-center items-center'>
                             <div className='self-start'>
-                                <AiOutlineTags className='text-gray-500 text-3xl md:text-4xl mt-10 ml-3 md:ml-0' />
+                                <AiOutlineTags className='text-gray-500 text-3xl md:text-4xl mt-12 ml-3 md:ml-0' />
                             </div>
 
                             <h3 className={`${Styles.heading2blog}`}>Sommerzeit</h3>
                             <p className='text-2xl md:text-3xl text-gray-400 text-center leading-relaxed md:leading-loose'>Ankommen und Weitergehen mit der Kraft des Shiatsu.</p>
-                            <p className={`${Styles.paragraph}`}>Zeit für dich!</p>
-                            <p className={`${Styles.paragraph}`}>Preis: 60-80 {'\u20AC'} {'\u007C'} 2. {'\u002B'} 3. Termin: 15 {'\u20AC'} Rabatt</p>
+                            <p className={`${Styles.blogParagraph}`}>Zeit für dich!</p>
+                            <p className={`${Styles.blogParagraph}`}>Preis: 60-80 {'\u20AC'} {'\u007C'} 2. {'\u002B'} 3. Termin: 15 {'\u20AC'} Rabatt</p>
 
-                            <div className='flex justify-center items-center'>
+                            <div className='w-1/2 flex justify-center items-center'>
                                 <AiOutlineClockCircle className='text-gray-500 mr-5' />
-                                <label className={`${Styles.paragraph}`}>{date.toLocaleDateString("de-DE", options)}</label>
+                                <label className={`${Styles.blogParagraph}`}>{date.toLocaleDateString("de-DE", options)}</label>
                             </div>
                         </div>
                     </div>

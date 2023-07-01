@@ -28,7 +28,7 @@ function Kontakt() {
                 <div>
                     <div className="flex justify-center items-center">
                         <FaPaperPlane className={`${contactIcons} mr-4`} />
-                        <h3 className={`${headingsContact} hover:text-violet-400`}>
+                        <h3 className={`${headingsContact} hover:text-lavendel`}>
                             <a href="mailto:tansinne.f@posteo.de">tansinne.f{'\u0040'}posteo.de</a>
                         </h3>
                     </div>

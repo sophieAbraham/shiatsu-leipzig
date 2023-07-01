@@ -27,7 +27,7 @@ function Impressum() {
                     E-Mail: tansinne.f@posteo.de</p>
 
                 <h2 className={`${heading3box}`}>Umsatzsteuer-ID</h2>
-                <p className={`${pImprbox}`}>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
+                <p className={`${pImprbox}`}>Umsatzsteuer-Identifikationsnummer <br /> gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
                     DE-232-542-09007</p>
 
                 <h2 className={`${heading3box}`}>Redaktionell verantwortlich</h2>
@@ -44,18 +44,18 @@ function Impressum() {
                 </p>
 
                 <h3 className={`${heading3box}`}>Haftung für Links</h3>
-                <p className={`${pImprbox}`}>
+                <p className={`${pImprbox} mx-auto text-justify sm:text-left w-3/4`}>
                     Ich setze Links um weitere Informationsmöglichkeiten aufzuzeigen und/oder zur Netzwerkarbeit. 
                     Dabei übernehme ich jedoch keine Gewähr für die fremden Inhalte Dritter. Die Verantwortung dieser 
                     Inhalte liegen bei*m jeweiligen Betreiber*in der Seite. Zum Zeitpunkt der Verlinkung waren keine 
                     Rechtsverstöße erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch 
-                    ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von 
+                    ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. <br /> Bei Bekanntwerden von 
                     Rechtsverletzungen werde ich derartige Links umgehend entfernen.
                 </p>
 
 
                 <h2 className={`${heading3box}`}>EU-Streitschlichtung</h2>
-                <p className={`${pImprbox}`}>
+                <p className={`${pImprbox} mx-auto text-left w-3/4`}>
                     Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:<br />
                     <a
                         href="https://ec.europa.eu/consumers/odr/"
@@ -63,17 +63,17 @@ function Impressum() {
                         rel="noopener noreferrer"
                     >
                         https://ec.europa.eu/consumers/odr/
-                    </a>.<br />
+                    </a>. <br />
                     Meine E-Mail-Adresse finden Sie oben im Impressum.</p>
 
-                <h2 className={`${heading3box}`}>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
-                <p className={`${pImprbox}`}>Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+                <h2 className={`${heading3box}`}>Verbraucher&shy;streit&shy;beilegung/ <br /> Universal&shy;schlichtungs&shy;stelle</h2>
+                <p className={`${pImprbox} mx-auto text-left w-3/4`}>Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 
-                <p className={`${pImprbox}`}>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
+                <p className={`${pImprbox} mx-auto text-left w-3/4`}>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
 
-                <h1 className={`${heading2box} mt-4`}>Urheberrechtshinweis</h1>
+                <h1 className={`${heading3box}`}>Urheberrechtshinweis</h1>
 
-                <p className={`${pImprbox}`}>
+                <p className={`${pImprbox} mx-auto text-justify sm:text-left w-3/4`}>
                     Alle Inhalte dieser Website, insbesondere Texte, Fotografien und Grafiken, sind urheberrechtlich geschützt.
                     Das Urheberrecht liegt, soweit nicht ausdrücklich anders gekennzeichnet, bei Franziska Tansinne.
                     Bitte fragen Sie mich, falls Sie die Inhalte dieses Internetangebotes verwenden möchten.

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { contentBox, heading2box, headingInfobox, headingInfobox2, paragraph, pInfobox, pInfobox2, button } from "../services/styles";
+import { contentBox, heading2box, headingInfobox, heading3box, paragraph, pInfobox, button } from "../services/styles";
 //import Image1 from '../assets/img/DSC03652-300.jpg';
 //import Image2 from '../assets/img/DSC03649-300.jpg';
 //import Image3 from '../assets/img/IMG_20220520_110105-300.jpg';
@@ -41,10 +41,10 @@ function Behandlung() {
                     boxOpen ?
 
                         <div>
-                            <div className="bg-olive opacity-50 p-3 mt-7 md:-ml-6 md:-mr-6">
-                                <h3 className={`${headingInfobox2}`}>Heilmassage</h3>
+                            <div className="">
+                                <h3 className={`${heading3box}`}>Heilmassage</h3>
 
-                                <p className={`${pInfobox2}`}>
+                                <p className={`${paragraph}`}>
                                     Jede Behandlung wird entsprechend Ihres momentanen IST- Zustandes gestaltet. 
                                     Der Fokus wird vor jeder Behandlung neu gesetzt:  Je nachdem, ob es Beruhigung, 
                                     Öffnung, Zentrierung oder Bewegung braucht, kommen dynamisch - vitalisierende 
@@ -60,7 +60,7 @@ function Behandlung() {
 
                         :
 
-                        <div className={`w-[310px] md:w-3/4 mx-auto mt-10 ${!boxOpen ? '' : 'hidden'}`}>
+                        <div className={`w-3/4 mx-auto mt-5 ${!boxOpen ? '' : 'hidden'}`}>
                             <div>
                                 <h3 className={`${headingInfobox}`}>Anamnese</h3>
                                 <p className={`${pInfobox}`}>
